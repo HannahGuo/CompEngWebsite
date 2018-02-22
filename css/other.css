@@ -11,6 +11,25 @@
   font-size: 20px;
 }
 
+.custom-title {
+  text-align: center;
+  font-size: 36px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  display:block;
+}
+
+.line {
+  margin: auto;
+  display: block;
+  width: 40%;
+  height: 40%;
+}
+
 #octo {
   height: 20%;
   width: 20%;
