@@ -1,0 +1,20 @@
+/*Dropdown */
+.dropdown-items {
+  display: none;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #c5d1e5;
+}
+
+.dropdown:hover > .dropdown-items {
+  display: grid;
+}
