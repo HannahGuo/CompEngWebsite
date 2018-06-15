@@ -75,3 +75,31 @@ h1 {
   text-align:center;
   margin-bottom: 25px;
 }
+
+table {
+  text-indent:0px;
+  margin: auto;
+}
+
+td {
+  padding:10px;
+}
+
+.pcpp-part-list-item {
+  max-width:200px;
+}
+
+.pcpp-part-list-item-reasoning {
+  max-width:500px;
+}
+
+.pcpp-part-list-type {
+  min-width: auto;
+  max-width: 500px;
+  margin-left: -3em;
+}
+
+#imgtext {
+  text-indent:0px;
+  text-align:center;
+}
