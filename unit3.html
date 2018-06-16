@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hannah Guo</title>
+    <link rel="stylesheet" type="text/css" href="css/my.css">
+    <link rel="stylesheet" type="text/css" href="css/other.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Favi.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="nav">
+      <a href="index.html" id="navname">TEJ3MR</a>
+      <div class="right">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <div class="dropdown">
+          <a href="#" class="nav-link dropdown-title" style="margin-right: 2px">Portfolio</a>
+          <div class="dropdown-items">
+            <a href="unit1.html" class="dropdown-item">Unit 1</a>
+            <a href="unit2.html" class="dropdown-item">Unit 2</a>
+            <a href="unit3.html" class="dropdown-item">Unit 3</a>
+            <a href="unit4.html" class="dropdown-item">Unit 4</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <img src="images/headerimage.jpg" class="headerimage">
+      <div id="main-text">
+        <span class="header-text title">Portfolio</span>
+      </div>
+    </div>
+    <div id="content" class="text">
+      <img src="images/LineDiv.jpg" class="line"/>
+      <div class="subtitle" style="text-align:center;">Unit 3 - Digital Logic and Electronics
+      </div>
+      <img src="images/LineDiv.jpg" class="line"/>
+      <br><br>
+      <span class="subtitle">
+        <a href="unit3.html#a2" name="a2" style="text-decoration:none; color: inherit; ">Encoding my Name</a>
+      </span><br><br>
+      <table style="text-align:center ">
+        <tr>
+          <th>
+            ASCII
+          </th>
+          <th>
+            Decimal
+          </th>
+          <th>
+            Binary
+          </th>
+          <th>
+            Octal
+          </th>
+          <th>
+            Hexadecimal
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Hannah<br>Guo
+          </td>
+          <td>
+            72-97-110-110-97-72 71-117-111
+          </td>
+          <td>
+            01001000-01100001-01101110-01101110-01100001-01101000 01000111-01110101-01101111
+          </td>
+          <td>
+            110-141-156-156-141-110 107-165-157
+          </td>
+          <td>
+            48-61-6E-6E-61-48 47-75-6F
+          </td>
+        </tr>
+      </table>
+      <img src="images/LineDiv.jpg" class="line"/>
+    </div>
+    <footer>
+      Website designed and built by Hannah Guo, 2018
+    </footer>
+    <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        imgText.innerHTML = imgs.alt;
+        expandImg.src = imgs.src;
+        expandImg.parentElement.style.display = "block";
+        expandImg.parentElement.style.width = "30%";
+        expandImg.parentElement.style.height = "30%";
+        expandImg.parentElement.style.margin = "auto";
+      }
+    </script>
+  </body>
+</html>
