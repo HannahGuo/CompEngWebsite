@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hannah Guo</title>
+    <link rel="stylesheet" type="text/css" href="css/my.css">
+    <link rel="stylesheet" type="text/css" href="css/other.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Favi.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="nav">
+      <a href="index.html" id="navname">TEJ3MR</a>
+      <div class="right">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="course.html" class="nav-link">Course Discussion</a>
+        <div class="dropdown">
+          <a href="#" class="nav-link dropdown-title" style="margin-right: 2px">Portfolio</a>
+          <div class="dropdown-items">
+            <a href="unit1.html" class="dropdown-item">Unit 1</a>
+            <a href="unit2.html" class="dropdown-item">Unit 2</a>
+            <a href="unit3.html" class="dropdown-item">Unit 3</a>
+            <a href="unit4.html" class="dropdown-item">Unit 4</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <img src="images/headerimage.jpg" class="headerimage">
+      <div id="main-text">
+        <span class="header-text title">Portfolio</span>
+      </div>
+    </div>
+    <div id="content" class="text">
+      <img src="images/LineDiv.jpg" class="line"/>
+      <div class="subtitle" style="text-align:center;">Unit 4 - Computer Programming and Interfacing
+      </div>
+      <img src="images/LineDiv.jpg" class="line"/>
+      <span class="subtitle">
+        <a href="unit4.html#a2" name="a2" style="text-decoration:none; color: inherit; ">Arduino Culminating</a>
+      </span><br><br>
+      <img src="images/summative.png" style="width: 50%; height:50%;margin:auto;display:block;">
+      <p>For our culminating Arduino project, we made a game called Just Play. The goal of Just Play is to score the most points by correctly pressing the buttons that are displayed on the screen. Each button is assigned a note (from C4 to G4). When the
+        player correctly presses the button on the screen, the buzzer plays the note, the green LED lights up, and the player earns a point. The more notes that the player plays correctly, the higher their point count. At the end of the song, the player sees
+        their score and can restart the program to start another song by pressing any button. We used an LCD, buttons, an LED and a buzzer to create out project. For more information on our project, view our reference manual
+        <a href="https://docs.google.com/document/d/1L_sPzDyeazAZ_1HEUM_orntk-kySf4eFQJGy5AyPnIE/edit?usp=sharing
+">here</a>. (note that a PDSB account is required to view the reference manual.)
+      </p>
+      <img src="images/LineDiv.jpg" class="line"/>
+      <span class="subtitle">
+        <a href="unit4.html#a2" name="a2" style="text-decoration:none; color: inherit; ">Arduino Learning Process</a>
+      </span>
+      <p>The Arduino unit in computer engineering has been very educational. I’ve always wanted the chance to work with Arduino due to high reputation that the technology has. I learned a lot about how serial communication works between devices (between
+        the Arduino and my laptop). I also learned how different devices can be controlled by sending them signals (e.g. HIGH and LOW signals to LEDs and buttons, integer tones to buzzers).
+      </p>
+      <p>I enjoyed experimenting with different components and making them react with each other, like making a buzzer sound when a button was pressed. I also enjoyed using my creativity to expand on the lessons and examples, like how I made Back to the
+        Future sound on the buzzer. However, my favourite part of Arduino was programming the devices in the circuits I built. It was neat seeing another version of “robot programming” since I have previously programmed for FRC using Java.
+      </p>
+      <p>I disliked how Arduino was difficult to troubleshoot. Often I would run into an error and it was impossible to know the direct source, so I had to test each individual component and look through the software. I felt that this was a waste of time
+        and since Arduino is made for beginners, they could have added more helpful error messages. Arduino’s IDE was very unhelpful in finding errors live, unlike almost every other IDE that I’ve used. Coding errors could only be found on verification or
+        uploading, and even then each error would have to be solved one at a time. Furthermore, Arduino had a tendency to change to change communication ports after replugging into my laptop. This meant I had to manually change the communication port in the
+        IDE’s settings. This quickly became tedious to do.
+      </p>
+      <p>I want to learn how Arduino works with other modules and devices. I would love to connect the Arduino’s sensor data with an Android phone application. Furthermore, I would like to experiment with more complex interfacing devices, such as a
+        Raspberry Pi. Overall, this unit was a good introduction to computer interfacing, and I definitely plan on learning more in the future.
+      </p>
+    </span><br><br>
+    <img src="images/LineDiv.jpg" class="line"/>
+  </div>
+  <footer>
+    Website designed and built by Hannah Guo, 2018
+  </footer>
+  <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      imgText.innerHTML = imgs.alt;
+      expandImg.src = imgs.src;
+      expandImg.parentElement.style.display = "block";
+      expandImg.parentElement.style.width = "30%";
+      expandImg.parentElement.style.height = "30%";
+      expandImg.parentElement.style.margin = "auto";
+    }
+  </script>
+</body>
+</html>
